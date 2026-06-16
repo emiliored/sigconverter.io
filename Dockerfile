@@ -7,6 +7,8 @@ WORKDIR /app/
 COPY . /app
 
 # install pinned backend environments committed to the repository
+RUN find /app -type f -exec sed -i 's/\r$//' {} +
+RUN apt update && apt install -y git
 RUN cd backend && ./setup-sigma-plugins.sh
 
 # launch front- and backend

@@ -4,6 +4,11 @@
 
 Welcome to sigconverter.io, a user-friendly converter for Sigma rules. This project is designed to keep in sync with the pySigma project's backends. Inspired by [uncoder.io](https://uncoder.io), it aims to provide an easy-to-use interface for converting Sigma rules.
 
+**Update 16/06/2026:**
+
+- Some changes made for fixing [pysigma-backend-cortexxdr](https://github.com/emiliored/pySigma-backend-cortexxdr)
+- Thanks to [krdmnbrk](https://github.com/magicsword-io/sigconverter.io/pull/60/changes) for fixing the CRLF in Windows using Docker ❤️
+
 ## 🌟 Key Features
 
 - Easy-to-use interface for Sigma rule conversion
