@@ -8,7 +8,7 @@ authors = [{ name = "Magic Sword", email = "info@magicsword.io" }]
 dependencies = [
     "flask>=3.0.3",
     "pysigma-backend-carbonblack==0.1.12",
-    "pysigma-backend-cortexxdr @ git+https://github.com/SigmaHQ/pySigma-backend-cortexxdr.git",
+    "pysigma-backend-cortexxdr @ git+https://github.com/emiliored/pySigma-backend-cortexxdr.git",
     "pysigma-backend-crowdstrike==2.0.1",
     "pysigma-backend-datadog==0.3.1",
     "pysigma-backend-elasticsearch==1.1.6",
