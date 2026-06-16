@@ -17,6 +17,7 @@ while IFS= read -r VERSION; do
     (
         cd "$VERSION_DIR"
         uv venv
+        uv lock
         uv sync --frozen --no-dev
     )
 done <<EOF
