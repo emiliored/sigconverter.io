@@ -9,7 +9,7 @@ dependencies = [
     "flask>=3.0.3",
     "pysigma-backend-carbonblack==0.1.12",
     "pysigma-backend-crowdstrike==3.0.0",
-    "pysigma-backend-elasticsearch==2.0.3",
+    "pysigma-backend-elasticsearch==2.1.0",
     "pysigma-backend-golangexpr==1.0.0",
     "pysigma-backend-kusto==1.0.1",
     "pysigma-backend-logpoint==1.0.1",
