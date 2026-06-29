@@ -7,6 +7,5 @@ requires-python = ">=3.10"
 authors = [{ name = "Magic Sword", email = "info@magicsword.io" }]
 dependencies = [
     "flask>=3.0.3",
-    "pysigma-backend-cortexxdr @ git+https://github.com/emiliored/pySigma-backend-cortexxdr.git@feature/sigma-v2-v3-compat",
     "setuptools>=75.1.0",
 ]
